@@ -10,7 +10,6 @@ Output: 6
 
 ## self solution
 ### 一层循环，使用已有数组空间
-## Runtime: 77.95%; Memory Usage: 85.02%
 def maximumWealth(self, accounts: List[List[int]]) -> int:
     for c in accounts:
         if sum(c) > accounts[0][0]:

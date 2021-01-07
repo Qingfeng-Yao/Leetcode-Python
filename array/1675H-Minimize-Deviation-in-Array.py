@@ -14,9 +14,8 @@ Input: nums = [1,2,3,4]
 Output: 1
 '''
 
-## opimal solution
+## otheer solution
 ### 动态最值问题/堆
-## Runtime: 40.4%; Memory Usage: 82%
 def minimumDeviation(self, nums: List[int]) -> int:
     h = []
     n = len(nums)

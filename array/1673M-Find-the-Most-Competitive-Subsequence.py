@@ -9,9 +9,8 @@ Input: nums = [3,5,2,6], k = 2
 Output: [2,6]
 '''
 
-## opimal solution
+## other solution
 ### 遍历+pop/while
-## Runtime: 36.67%; Memory Usage: 66.74%
 def mostCompetitive(self, nums: List[int], k: int) -> List[int]:
     n = len(nums)
     s = []

@@ -9,9 +9,8 @@ Input: nums = [1,2,4,3], limit = 4
 Output: 1
 '''
 
-## opimal solution
+## othere solution
 ### 二分遍历+Counter计数/分情况讨论
-## Runtime: 27.41%; Memory Usage: 22.97%
 import collections
 from typing import List
 import math
