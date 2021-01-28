@@ -24,3 +24,7 @@
 
 ## integer
 - 进制
+
+## bit manipulation
+- 整数数组
+- 运算符号^
