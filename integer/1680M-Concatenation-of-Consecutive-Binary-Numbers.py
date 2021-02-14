@@ -7,7 +7,6 @@ Input: n = 3
 Output: 27
 '''
 
-## self solution
 ### bin函数+int函数
 def concatenatedBinary(self, n: int) -> int:
     c = ""

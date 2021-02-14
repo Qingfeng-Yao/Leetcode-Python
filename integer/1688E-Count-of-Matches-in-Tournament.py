@@ -15,7 +15,6 @@ Explanation: Details of the tournament:
 Total number of matches = 3 + 2 + 1 = 6.
 '''
 
-## self solution
 ### 依据表面题意
 def numberOfMatches(self, n: int) -> int:
     m = 0
@@ -28,7 +27,6 @@ def numberOfMatches(self, n: int) -> int:
             n = (n-1)//2+1
     return m
 
-## other solution
 ### 依据深层次题意：n teams, one match, one lose and eliminated. The champion never lose, n - 1 other team lose. So need n - 1 match.
 def numberOfMatches(self, n: int) -> int:
     return n-1
