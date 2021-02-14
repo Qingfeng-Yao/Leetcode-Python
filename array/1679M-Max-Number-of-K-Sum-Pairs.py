@@ -9,7 +9,6 @@ Input: nums = [1,2,3,4], k = 5
 Output: 2
 '''
 
-## other solution
 ### 排序+双向遍历
 def maxOperations(self, nums: List[int], k: int) -> int:
     nums.sort()
